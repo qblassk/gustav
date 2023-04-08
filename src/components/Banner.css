@@ -1,0 +1,121 @@
+@-webkit-keyframes vibrate-1 {
+   0% {
+      -webkit-transform: translate(0);
+      transform: translate(0);
+   }
+   20% {
+      -webkit-transform: translate(-1vw, 1vw);
+      transform: translate(-1vw, 1vw);
+   }
+   40% {
+      -webkit-transform: translate(-1vw, -1vw);
+      transform: translate(-1vw, -1vw);
+   }
+   60% {
+      -webkit-transform: translate(1vw, 1vw);
+      transform: translate(1vw, 1vw);
+   }
+   80% {
+      -webkit-transform: translate(1vw, -1vw);
+      transform: translate(1vw, -1vw);
+   }
+   100% {
+      -webkit-transform: translate(0);
+      transform: translate(0);
+   }
+}
+@keyframes vibrate-1 {
+   0% {
+      -webkit-transform: translate(0);
+      transform: translate(0);
+   }
+   20% {
+      -webkit-transform: translate(-1vw, 1vw);
+      transform: translate(-1vw, 1vw);
+   }
+   40% {
+      -webkit-transform: translate(-1vw, -1vw);
+      transform: translate(-1vw, -1vw);
+   }
+   60% {
+      -webkit-transform: translate(1vw, 1vw);
+      transform: translate(1vw, 1vw);
+   }
+   80% {
+      -webkit-transform: translate(1vw, -1vw);
+      transform: translate(1vw, -1vw);
+   }
+   100% {
+      -webkit-transform: translate(0);
+      transform: translate(0);
+   }
+}
+
+.img-base {
+   width: 100%;
+}
+
+.lines {
+   position: absolute;
+   top: 0vw;
+   left: 0vw;
+   width: 100%;
+   opacity: 1;
+}
+
+#fil0 {
+   fill: none;
+}
+
+#fil1 {
+   fill: #9feded;
+   fill-opacity: 0.701961;
+}
+
+#fil2 {
+   fill: #e4f994;
+   fill-opacity: 0.701961;
+}
+
+#fil3 {
+   fill: #f8b1ad;
+   fill-opacity: 0.701961;
+}
+
+#fil4 {
+   fill: #71abdd;
+   fill-opacity: 0.701961;
+}
+
+#fil5 {
+   fill: #fdcd79;
+   fill-opacity: 0.701961;
+}
+
+#fil6 {
+   fill: #fff68d;
+   fill-opacity: 0.701961;
+}
+
+#fil7 {
+   fill: #dd86b9;
+   fill-opacity: 0.701961;
+}
+
+#fil8 {
+   fill: #a7a4ff;
+   fill-opacity: 0.701961;
+}
+
+#fil9 {
+   fill: #373435;
+   fill-rule: nonzero;
+}
+
+.move {
+   -webkit-animation: vibrate-1 0.9s linear infinite both;
+   animation: vibrate-1 0.9s linear infinite both;
+}
+
+/* -webkit-animation: vibrate-1 0.9s linear infinite both;
+   animation: vibrate-1 0.9s linear infinite both; */
