@@ -1,0 +1,110 @@
+@-webkit-keyframes fade-in {
+   0% {
+      opacity: 0;
+   }
+   100% {
+      opacity: 1;
+   }
+}
+
+@keyframes fade-in {
+   0% {
+      opacity: 0;
+   }
+   100% {
+      opacity: 1;
+   }
+}
+
+@-webkit-keyframes fade-out {
+   0% {
+      opacity: 1;
+   }
+   100% {
+      opacity: 0;
+   }
+}
+
+@keyframes fade-out {
+   0% {
+      opacity: 1;
+   }
+   100% {
+      opacity: 0;
+   }
+}
+
+.entrance-img-a {
+   position: absolute;
+   top: 0vw;
+   left: 0vw;
+   width: 100%;
+   -webkit-animation: fade-in 0.8s cubic-bezier(0.39, 0.575, 0.565, 1) both;
+   animation: fade-in 0.8s cubic-bezier(0.39, 0.575, 0.565, 1) both;
+}
+
+.entrance-img-b {
+   position: absolute;
+   top: 0vw;
+   left: 0vw;
+   width: 100%;
+   -webkit-animation: fade-in 0.8s cubic-bezier(0.39, 0.575, 0.565, 1) both;
+   animation: fade-in 0.8s cubic-bezier(0.39, 0.575, 0.565, 1) both;
+   animation-delay: 0.2s;
+}
+
+.entrance-img-c {
+   position: absolute;
+   top: 0vw;
+   left: 0vw;
+   width: 100%;
+   -webkit-animation: fade-in 0.8s cubic-bezier(0.39, 0.575, 0.565, 1) both;
+   animation: fade-in 0.8s cubic-bezier(0.39, 0.575, 0.565, 1) both;
+   animation-delay: 0.4s;
+}
+
+.entrance-img-d {
+   position: absolute;
+   top: 0vw;
+   left: 0vw;
+   width: 100%;
+   -webkit-animation: fade-in 0.8s cubic-bezier(0.39, 0.575, 0.565, 1) both;
+   animation: fade-in 0.8s cubic-bezier(0.39, 0.575, 0.565, 1) both;
+   animation-delay: 0.6s;
+}
+
+.entrance-img-e {
+   position: absolute;
+   top: 0vw;
+   left: 0vw;
+   width: 100%;
+   -webkit-animation: fade-in 0.8s cubic-bezier(0.39, 0.575, 0.565, 1) both;
+   animation: fade-in 0.8s cubic-bezier(0.39, 0.575, 0.565, 1) both;
+   animation-delay: 0.8s;
+}
+
+.entrance-img-f {
+   position: absolute;
+   top: 0vw;
+   left: 0vw;
+   width: 100%;
+   -webkit-animation: fade-in 0.8s cubic-bezier(0.39, 0.575, 0.565, 1) both;
+   animation: fade-in 0.8s cubic-bezier(0.39, 0.575, 0.565, 1) both;
+   animation-delay: 1s;
+}
+
+/* out */
+
+.entrance-img-a {
+   -webkit-animation: fade-out 0.2s cubic-bezier(0.39, 0.575, 0.565, 1) both;
+   animation: fade-out 0.2s cubic-bezier(0.39, 0.575, 0.565, 1) both;
+   animation-delay: 2s;
+}
+
+/* the class comes from banner to use the animation */
+
+.lines {
+   -webkit-animation: fade-in 0.2s cubic-bezier(0.39, 0.575, 0.565, 1) both;
+   animation: fade-in 0.2s cubic-bezier(0.39, 0.575, 0.565, 1) both;
+   animation-delay: 4s;
+}
