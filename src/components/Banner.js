@@ -59,10 +59,18 @@ export function Banner() {
          setHovered8(false);
       }, 3000);
 
+   const [lines, setLines] = useState('lines-off');
+   const linesOn = () =>
+      setTimeout(function () {
+         setLines('lines-on');
+      }, 4800);
+
+   linesOn();
+
    return (
       <div className="container">
          <img src={imgBanner} className="img-base" alt="Words" />
-         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 10837 6096" className="lines">
+         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 10837 6096" className={lines}>
             <g id="Capa_x0020_1">
                <metadata id="CorelCorpID_0Corel-Layer" />
                <polygon

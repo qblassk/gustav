@@ -34,77 +34,311 @@
    }
 }
 
-.entrance-img-a {
+#entrance-img {
    position: absolute;
    top: 0vw;
    left: 0vw;
    width: 100%;
+}
+
+#entrance-img-off {
+   display: none;
+}
+
+.entrance-img-a {
    -webkit-animation: fade-in 0.8s cubic-bezier(0.39, 0.575, 0.565, 1) both;
    animation: fade-in 0.8s cubic-bezier(0.39, 0.575, 0.565, 1) both;
+   animation-delay: 0.2s;
 }
 
 .entrance-img-b {
-   position: absolute;
-   top: 0vw;
-   left: 0vw;
-   width: 100%;
    -webkit-animation: fade-in 0.8s cubic-bezier(0.39, 0.575, 0.565, 1) both;
    animation: fade-in 0.8s cubic-bezier(0.39, 0.575, 0.565, 1) both;
    animation-delay: 0.2s;
 }
 
 .entrance-img-c {
-   position: absolute;
-   top: 0vw;
-   left: 0vw;
-   width: 100%;
    -webkit-animation: fade-in 0.8s cubic-bezier(0.39, 0.575, 0.565, 1) both;
    animation: fade-in 0.8s cubic-bezier(0.39, 0.575, 0.565, 1) both;
    animation-delay: 0.4s;
 }
 
 .entrance-img-d {
-   position: absolute;
-   top: 0vw;
-   left: 0vw;
-   width: 100%;
    -webkit-animation: fade-in 0.8s cubic-bezier(0.39, 0.575, 0.565, 1) both;
    animation: fade-in 0.8s cubic-bezier(0.39, 0.575, 0.565, 1) both;
    animation-delay: 0.6s;
 }
 
 .entrance-img-e {
-   position: absolute;
-   top: 0vw;
-   left: 0vw;
-   width: 100%;
    -webkit-animation: fade-in 0.8s cubic-bezier(0.39, 0.575, 0.565, 1) both;
    animation: fade-in 0.8s cubic-bezier(0.39, 0.575, 0.565, 1) both;
    animation-delay: 0.8s;
 }
 
 .entrance-img-f {
-   position: absolute;
-   top: 0vw;
-   left: 0vw;
-   width: 100%;
    -webkit-animation: fade-in 0.8s cubic-bezier(0.39, 0.575, 0.565, 1) both;
    animation: fade-in 0.8s cubic-bezier(0.39, 0.575, 0.565, 1) both;
    animation-delay: 1s;
 }
 
-/* out */
+.entrance-img-g {
+   -webkit-animation: fade-in 0.8s cubic-bezier(0.39, 0.575, 0.565, 1) both;
+   animation: fade-in 0.8s cubic-bezier(0.39, 0.575, 0.565, 1) both;
+   animation-delay: 1.2s;
+}
 
-.entrance-img-a {
-   -webkit-animation: fade-out 0.2s cubic-bezier(0.39, 0.575, 0.565, 1) both;
-   animation: fade-out 0.2s cubic-bezier(0.39, 0.575, 0.565, 1) both;
+.entrance-img-h {
+   -webkit-animation: fade-in 0.8s cubic-bezier(0.39, 0.575, 0.565, 1) both;
+   animation: fade-in 0.8s cubic-bezier(0.39, 0.575, 0.565, 1) both;
+   animation-delay: 1.4s;
+}
+
+.entrance-img-i {
+   -webkit-animation: fade-in 0.8s cubic-bezier(0.39, 0.575, 0.565, 1) both;
+   animation: fade-in 0.8s cubic-bezier(0.39, 0.575, 0.565, 1) both;
+   animation-delay: 1.6s;
+}
+
+.entrance-img-j {
+   -webkit-animation: fade-in 0.8s cubic-bezier(0.39, 0.575, 0.565, 1) both;
+   animation: fade-in 0.8s cubic-bezier(0.39, 0.575, 0.565, 1) both;
+   animation-delay: 1.8s;
+}
+
+.entrance-img-k {
+   -webkit-animation: fade-in 0.8s cubic-bezier(0.39, 0.575, 0.565, 1) both;
+   animation: fade-in 0.8s cubic-bezier(0.39, 0.575, 0.565, 1) both;
    animation-delay: 2s;
 }
 
-/* the class comes from banner to use the animation */
+.entrance-img-l {
+   -webkit-animation: fade-in 0.8s cubic-bezier(0.39, 0.575, 0.565, 1) both;
+   animation: fade-in 0.8s cubic-bezier(0.39, 0.575, 0.565, 1) both;
+   animation-delay: 2.2s;
+}
 
-.lines {
-   -webkit-animation: fade-in 0.2s cubic-bezier(0.39, 0.575, 0.565, 1) both;
-   animation: fade-in 0.2s cubic-bezier(0.39, 0.575, 0.565, 1) both;
+.entrance-img-m {
+   -webkit-animation: fade-in 0.8s cubic-bezier(0.39, 0.575, 0.565, 1) both;
+   animation: fade-in 0.8s cubic-bezier(0.39, 0.575, 0.565, 1) both;
+   animation-delay: 2.4s;
+}
+
+.entrance-img-n {
+   -webkit-animation: fade-in 0.8s cubic-bezier(0.39, 0.575, 0.565, 1) both;
+   animation: fade-in 0.8s cubic-bezier(0.39, 0.575, 0.565, 1) both;
+   animation-delay: 2.6s;
+}
+
+.entrance-img-o {
+   -webkit-animation: fade-in 0.8s cubic-bezier(0.39, 0.575, 0.565, 1) both;
+   animation: fade-in 0.8s cubic-bezier(0.39, 0.575, 0.565, 1) both;
+   animation-delay: 2.8s;
+}
+
+.entrance-img-p {
+   -webkit-animation: fade-in 0.8s cubic-bezier(0.39, 0.575, 0.565, 1) both;
+   animation: fade-in 0.8s cubic-bezier(0.39, 0.575, 0.565, 1) both;
+   animation-delay: 3s;
+}
+
+.entrance-img-q {
+   -webkit-animation: fade-in 0.8s cubic-bezier(0.39, 0.575, 0.565, 1) both;
+   animation: fade-in 0.8s cubic-bezier(0.39, 0.575, 0.565, 1) both;
+   animation-delay: 3.2s;
+}
+
+.entrance-img-r {
+   -webkit-animation: fade-in 0.8s cubic-bezier(0.39, 0.575, 0.565, 1) both;
+   animation: fade-in 0.8s cubic-bezier(0.39, 0.575, 0.565, 1) both;
+   animation-delay: 3.4s;
+}
+
+.entrance-img-s {
+   -webkit-animation: fade-in 0.8s cubic-bezier(0.39, 0.575, 0.565, 1) both;
+   animation: fade-in 0.8s cubic-bezier(0.39, 0.575, 0.565, 1) both;
+   animation-delay: 3.6s;
+}
+
+.entrance-img-t {
+   -webkit-animation: fade-in 0.8s cubic-bezier(0.39, 0.575, 0.565, 1) both;
+   animation: fade-in 0.8s cubic-bezier(0.39, 0.575, 0.565, 1) both;
+   animation-delay: 3.8s;
+}
+
+.entrance-img-u {
+   -webkit-animation: fade-in 0.8s cubic-bezier(0.39, 0.575, 0.565, 1) both;
+   animation: fade-in 0.8s cubic-bezier(0.39, 0.575, 0.565, 1) both;
    animation-delay: 4s;
 }
+
+.entrance-img-v {
+   -webkit-animation: fade-in 0.8s cubic-bezier(0.39, 0.575, 0.565, 1) both;
+   animation: fade-in 0.8s cubic-bezier(0.39, 0.575, 0.565, 1) both;
+   animation-delay: 4.2s;
+}
+
+.entrance-img-w {
+   -webkit-animation: fade-in 0.8s cubic-bezier(0.39, 0.575, 0.565, 1) both;
+   animation: fade-in 0.8s cubic-bezier(0.39, 0.575, 0.565, 1) both;
+   animation-delay: 4.4s;
+}
+
+.entrance-img-x {
+   -webkit-animation: fade-in 0.8s cubic-bezier(0.39, 0.575, 0.565, 1) both;
+   animation: fade-in 0.8s cubic-bezier(0.39, 0.575, 0.565, 1) both;
+   animation-delay: 4.6s;
+}
+
+/* out */
+
+/* .entrance-img-a {
+   -webkit-animation: fade-out 0.2s cubic-bezier(0.39, 0.575, 0.565, 1) both;
+   animation: fade-out 0.2s cubic-bezier(0.39, 0.575, 0.565, 1) both;
+   animation-delay: 4.8s;
+}
+
+.entrance-img-b {
+   -webkit-animation: fade-out 0.8s cubic-bezier(0.39, 0.575, 0.565, 1) both;
+   animation: fade-out 0.8s cubic-bezier(0.39, 0.575, 0.565, 1) both;
+   animation-delay: 4.8s;
+}
+
+.entrance-img-c {
+   -webkit-animation: fade-out 0.8s cubic-bezier(0.39, 0.575, 0.565, 1) both;
+   animation: fade-out 0.8s cubic-bezier(0.39, 0.575, 0.565, 1) both;
+   animation-delay: 4.8s;
+}
+
+.entrance-img-d {
+   -webkit-animation: fade-out 0.8s cubic-bezier(0.39, 0.575, 0.565, 1) both;
+   animation: fade-out 0.8s cubic-bezier(0.39, 0.575, 0.565, 1) both;
+   animation-delay: 4.8s;
+}
+
+.entrance-img-e {
+   -webkit-animation: fade-out 0.8s cubic-bezier(0.39, 0.575, 0.565, 1) both;
+   animation: fade-out 0.8s cubic-bezier(0.39, 0.575, 0.565, 1) both;
+   animation-delay: 4.8s;
+}
+
+.entrance-img-f {
+   -webkit-animation: fade-out 0.8s cubic-bezier(0.39, 0.575, 0.565, 1) both;
+   animation: fade-out 0.8s cubic-bezier(0.39, 0.575, 0.565, 1) both;
+   animation-delay: 4.8s;
+}
+
+.entrance-img-g {
+   -webkit-animation: fade-out 0.8s cubic-bezier(0.39, 0.575, 0.565, 1) both;
+   animation: fade-out 0.8s cubic-bezier(0.39, 0.575, 0.565, 1) both;
+   animation-delay: 4.8s;
+}
+
+.entrance-img-h {
+   -webkit-animation: fade-out 0.8s cubic-bezier(0.39, 0.575, 0.565, 1) both;
+   animation: fade-out 0.8s cubic-bezier(0.39, 0.575, 0.565, 1) both;
+   animation-delay: 4.8s;
+}
+
+.entrance-img-i {
+   -webkit-animation: fade-out 0.8s cubic-bezier(0.39, 0.575, 0.565, 1) both;
+   animation: fade-out 0.8s cubic-bezier(0.39, 0.575, 0.565, 1) both;
+   animation-delay: 4.8s;
+}
+
+.entrance-img-j {
+   -webkit-animation: fade-out 0.8s cubic-bezier(0.39, 0.575, 0.565, 1) both;
+   animation: fade-out 0.8s cubic-bezier(0.39, 0.575, 0.565, 1) both;
+   animation-delay: 4.8s;
+}
+
+.entrance-img-k {
+   -webkit-animation: fade-out 0.8s cubic-bezier(0.39, 0.575, 0.565, 1) both;
+   animation: fade-out 0.8s cubic-bezier(0.39, 0.575, 0.565, 1) both;
+   animation-delay: 4.8s;
+}
+
+.entrance-img-l {
+   -webkit-animation: fade-out 0.8s cubic-bezier(0.39, 0.575, 0.565, 1) both;
+   animation: fade-out 0.8s cubic-bezier(0.39, 0.575, 0.565, 1) both;
+   animation-delay: 4.8s;
+}
+
+.entrance-img-m {
+   -webkit-animation: fade-out 0.8s cubic-bezier(0.39, 0.575, 0.565, 1) both;
+   animation: fade-out 0.8s cubic-bezier(0.39, 0.575, 0.565, 1) both;
+   animation-delay: 4.8s;
+}
+
+.entrance-img-n {
+   -webkit-animation: fade-out 0.8s cubic-bezier(0.39, 0.575, 0.565, 1) both;
+   animation: fade-out 0.8s cubic-bezier(0.39, 0.575, 0.565, 1) both;
+   animation-delay: 4.8s;
+}
+
+.entrance-img-o {
+   -webkit-animation: fade-out 0.8s cubic-bezier(0.39, 0.575, 0.565, 1) both;
+   animation: fade-out 0.8s cubic-bezier(0.39, 0.575, 0.565, 1) both;
+   animation-delay: 4.8s;
+}
+
+.entrance-img-p {
+   -webkit-animation: fade-out 0.8s cubic-bezier(0.39, 0.575, 0.565, 1) both;
+   animation: fade-out 0.8s cubic-bezier(0.39, 0.575, 0.565, 1) both;
+   animation-delay: 4.8s;
+}
+
+.entrance-img-q {
+   -webkit-animation: fade-out 0.8s cubic-bezier(0.39, 0.575, 0.565, 1) both;
+   animation: fade-out 0.8s cubic-bezier(0.39, 0.575, 0.565, 1) both;
+   animation-delay: 4.8s;
+}
+
+.entrance-img-r {
+   -webkit-animation: fade-out 0.8s cubic-bezier(0.39, 0.575, 0.565, 1) both;
+   animation: fade-out 0.8s cubic-bezier(0.39, 0.575, 0.565, 1) both;
+   animation-delay: 4.8s;
+}
+
+.entrance-img-s {
+   -webkit-animation: fade-out 0.8s cubic-bezier(0.39, 0.575, 0.565, 1) both;
+   animation: fade-out 0.8s cubic-bezier(0.39, 0.575, 0.565, 1) both;
+   animation-delay: 4.8s;
+}
+
+.entrance-img-t {
+   -webkit-animation: fade-out 0.8s cubic-bezier(0.39, 0.575, 0.565, 1) both;
+   animation: fade-out 0.8s cubic-bezier(0.39, 0.575, 0.565, 1) both;
+   animation-delay: 4.8s;
+}
+
+.entrance-img-u {
+   -webkit-animation: fade-out 0.8s cubic-bezier(0.39, 0.575, 0.565, 1) both;
+   animation: fade-out 0.8s cubic-bezier(0.39, 0.575, 0.565, 1) both;
+   animation-delay: 4.8s;
+}
+
+.entrance-img-v {
+   -webkit-animation: fade-out 0.8s cubic-bezier(0.39, 0.575, 0.565, 1) both;
+   animation: fade-out 0.8s cubic-bezier(0.39, 0.575, 0.565, 1) both;
+   animation-delay: 4.8s;
+}
+
+.entrance-img-w {
+   -webkit-animation: fade-out 0.8s cubic-bezier(0.39, 0.575, 0.565, 1) both;
+   animation: fade-out 0.8s cubic-bezier(0.39, 0.575, 0.565, 1) both;
+   animation-delay: 4.8s;
+}
+
+.entrance-img-x {
+   -webkit-animation: fade-out 0.8s cubic-bezier(0.39, 0.575, 0.565, 1) both;
+   animation: fade-out 0.8s cubic-bezier(0.39, 0.575, 0.565, 1) both;
+   animation-delay: 4.8s;
+} */
+
+/* the class comes from banner to use the animation */
+
+/* .lines {
+   -webkit-animation: fade-in 0.2s cubic-bezier(0.39, 0.575, 0.565, 1) both;
+   animation: fade-in 0.2s cubic-bezier(0.39, 0.575, 0.565, 1) both;
+   animation-delay: 4.4s;
+} */
