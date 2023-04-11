@@ -3,6 +3,14 @@ import { useState } from 'react';
 import imgBanner from '../assets/img/img-banner.png';
 
 export function Banner() {
+   const [lines, setLines] = useState('lines-off');
+   const linesOn = () =>
+      setTimeout(function () {
+         setLines('lines-on');
+      }, 4600);
+
+   linesOn();
+
    const [hovered1, setHovered1] = useState(false);
    const HoverTrue1 = () => setHovered1(true);
    const HoverFalse1 = () =>
@@ -59,16 +67,59 @@ export function Banner() {
          setHovered8(false);
       }, 3000);
 
-   const [lines, setLines] = useState('lines-off');
-   const linesOn = () =>
+   const HoverTrueInit = function () {
       setTimeout(function () {
-         setLines('lines-on');
+         setHovered8(true);
+      }, 4600);
+      setTimeout(function () {
+         setHovered8(false);
+      }, 7600);
+      setTimeout(function () {
+         setHovered1(true);
+      }, 4700);
+      setTimeout(function () {
+         setHovered1(false);
+      }, 7700);
+      setTimeout(function () {
+         setHovered2(true);
       }, 4800);
-
-   linesOn();
+      setTimeout(function () {
+         setHovered2(false);
+      }, 7800);
+      setTimeout(function () {
+         setHovered3(true);
+      }, 4900);
+      setTimeout(function () {
+         setHovered3(false);
+      }, 7900);
+      setTimeout(function () {
+         setHovered4(true);
+      }, 5000);
+      setTimeout(function () {
+         setHovered4(false);
+      }, 8000);
+      setTimeout(function () {
+         setHovered5(true);
+      }, 5100);
+      setTimeout(function () {
+         setHovered5(false);
+      }, 8100);
+      setTimeout(function () {
+         setHovered6(true);
+      }, 5200);
+      setTimeout(function () {
+         setHovered6(false);
+      }, 8200);
+      setTimeout(function () {
+         setHovered7(true);
+      }, 5300);
+      setTimeout(function () {
+         setHovered7(false);
+      }, 8300);
+   };
 
    return (
-      <div className="container">
+      <div className="container" onLoad={HoverTrueInit}>
          <img src={imgBanner} className="img-base" alt="Words" />
          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 10837 6096" className={lines}>
             <g id="Capa_x0020_1">

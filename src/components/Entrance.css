@@ -2,8 +2,11 @@
    0% {
       opacity: 0;
    }
+   50% {
+      opacity: 0.7;
+   }
    100% {
-      opacity: 1;
+      opacity: 0;
    }
 }
 
@@ -11,23 +14,8 @@
    0% {
       opacity: 0;
    }
-   100% {
-      opacity: 1;
-   }
-}
-
-@-webkit-keyframes fade-out {
-   0% {
-      opacity: 1;
-   }
-   100% {
-      opacity: 0;
-   }
-}
-
-@keyframes fade-out {
-   0% {
-      opacity: 1;
+   50% {
+      opacity: 0.7;
    }
    100% {
       opacity: 0;
@@ -36,7 +24,7 @@
 
 #entrance-img {
    position: absolute;
-   top: 0vw;
+   top: -0.5vw;
    left: 0vw;
    width: 100%;
 }
@@ -48,7 +36,6 @@
 .entrance-img-a {
    -webkit-animation: fade-in 0.8s cubic-bezier(0.39, 0.575, 0.565, 1) both;
    animation: fade-in 0.8s cubic-bezier(0.39, 0.575, 0.565, 1) both;
-   animation-delay: 0.2s;
 }
 
 .entrance-img-b {
@@ -188,157 +175,3 @@
    animation: fade-in 0.8s cubic-bezier(0.39, 0.575, 0.565, 1) both;
    animation-delay: 4.6s;
 }
-
-/* out */
-
-/* .entrance-img-a {
-   -webkit-animation: fade-out 0.2s cubic-bezier(0.39, 0.575, 0.565, 1) both;
-   animation: fade-out 0.2s cubic-bezier(0.39, 0.575, 0.565, 1) both;
-   animation-delay: 4.8s;
-}
-
-.entrance-img-b {
-   -webkit-animation: fade-out 0.8s cubic-bezier(0.39, 0.575, 0.565, 1) both;
-   animation: fade-out 0.8s cubic-bezier(0.39, 0.575, 0.565, 1) both;
-   animation-delay: 4.8s;
-}
-
-.entrance-img-c {
-   -webkit-animation: fade-out 0.8s cubic-bezier(0.39, 0.575, 0.565, 1) both;
-   animation: fade-out 0.8s cubic-bezier(0.39, 0.575, 0.565, 1) both;
-   animation-delay: 4.8s;
-}
-
-.entrance-img-d {
-   -webkit-animation: fade-out 0.8s cubic-bezier(0.39, 0.575, 0.565, 1) both;
-   animation: fade-out 0.8s cubic-bezier(0.39, 0.575, 0.565, 1) both;
-   animation-delay: 4.8s;
-}
-
-.entrance-img-e {
-   -webkit-animation: fade-out 0.8s cubic-bezier(0.39, 0.575, 0.565, 1) both;
-   animation: fade-out 0.8s cubic-bezier(0.39, 0.575, 0.565, 1) both;
-   animation-delay: 4.8s;
-}
-
-.entrance-img-f {
-   -webkit-animation: fade-out 0.8s cubic-bezier(0.39, 0.575, 0.565, 1) both;
-   animation: fade-out 0.8s cubic-bezier(0.39, 0.575, 0.565, 1) both;
-   animation-delay: 4.8s;
-}
-
-.entrance-img-g {
-   -webkit-animation: fade-out 0.8s cubic-bezier(0.39, 0.575, 0.565, 1) both;
-   animation: fade-out 0.8s cubic-bezier(0.39, 0.575, 0.565, 1) both;
-   animation-delay: 4.8s;
-}
-
-.entrance-img-h {
-   -webkit-animation: fade-out 0.8s cubic-bezier(0.39, 0.575, 0.565, 1) both;
-   animation: fade-out 0.8s cubic-bezier(0.39, 0.575, 0.565, 1) both;
-   animation-delay: 4.8s;
-}
-
-.entrance-img-i {
-   -webkit-animation: fade-out 0.8s cubic-bezier(0.39, 0.575, 0.565, 1) both;
-   animation: fade-out 0.8s cubic-bezier(0.39, 0.575, 0.565, 1) both;
-   animation-delay: 4.8s;
-}
-
-.entrance-img-j {
-   -webkit-animation: fade-out 0.8s cubic-bezier(0.39, 0.575, 0.565, 1) both;
-   animation: fade-out 0.8s cubic-bezier(0.39, 0.575, 0.565, 1) both;
-   animation-delay: 4.8s;
-}
-
-.entrance-img-k {
-   -webkit-animation: fade-out 0.8s cubic-bezier(0.39, 0.575, 0.565, 1) both;
-   animation: fade-out 0.8s cubic-bezier(0.39, 0.575, 0.565, 1) both;
-   animation-delay: 4.8s;
-}
-
-.entrance-img-l {
-   -webkit-animation: fade-out 0.8s cubic-bezier(0.39, 0.575, 0.565, 1) both;
-   animation: fade-out 0.8s cubic-bezier(0.39, 0.575, 0.565, 1) both;
-   animation-delay: 4.8s;
-}
-
-.entrance-img-m {
-   -webkit-animation: fade-out 0.8s cubic-bezier(0.39, 0.575, 0.565, 1) both;
-   animation: fade-out 0.8s cubic-bezier(0.39, 0.575, 0.565, 1) both;
-   animation-delay: 4.8s;
-}
-
-.entrance-img-n {
-   -webkit-animation: fade-out 0.8s cubic-bezier(0.39, 0.575, 0.565, 1) both;
-   animation: fade-out 0.8s cubic-bezier(0.39, 0.575, 0.565, 1) both;
-   animation-delay: 4.8s;
-}
-
-.entrance-img-o {
-   -webkit-animation: fade-out 0.8s cubic-bezier(0.39, 0.575, 0.565, 1) both;
-   animation: fade-out 0.8s cubic-bezier(0.39, 0.575, 0.565, 1) both;
-   animation-delay: 4.8s;
-}
-
-.entrance-img-p {
-   -webkit-animation: fade-out 0.8s cubic-bezier(0.39, 0.575, 0.565, 1) both;
-   animation: fade-out 0.8s cubic-bezier(0.39, 0.575, 0.565, 1) both;
-   animation-delay: 4.8s;
-}
-
-.entrance-img-q {
-   -webkit-animation: fade-out 0.8s cubic-bezier(0.39, 0.575, 0.565, 1) both;
-   animation: fade-out 0.8s cubic-bezier(0.39, 0.575, 0.565, 1) both;
-   animation-delay: 4.8s;
-}
-
-.entrance-img-r {
-   -webkit-animation: fade-out 0.8s cubic-bezier(0.39, 0.575, 0.565, 1) both;
-   animation: fade-out 0.8s cubic-bezier(0.39, 0.575, 0.565, 1) both;
-   animation-delay: 4.8s;
-}
-
-.entrance-img-s {
-   -webkit-animation: fade-out 0.8s cubic-bezier(0.39, 0.575, 0.565, 1) both;
-   animation: fade-out 0.8s cubic-bezier(0.39, 0.575, 0.565, 1) both;
-   animation-delay: 4.8s;
-}
-
-.entrance-img-t {
-   -webkit-animation: fade-out 0.8s cubic-bezier(0.39, 0.575, 0.565, 1) both;
-   animation: fade-out 0.8s cubic-bezier(0.39, 0.575, 0.565, 1) both;
-   animation-delay: 4.8s;
-}
-
-.entrance-img-u {
-   -webkit-animation: fade-out 0.8s cubic-bezier(0.39, 0.575, 0.565, 1) both;
-   animation: fade-out 0.8s cubic-bezier(0.39, 0.575, 0.565, 1) both;
-   animation-delay: 4.8s;
-}
-
-.entrance-img-v {
-   -webkit-animation: fade-out 0.8s cubic-bezier(0.39, 0.575, 0.565, 1) both;
-   animation: fade-out 0.8s cubic-bezier(0.39, 0.575, 0.565, 1) both;
-   animation-delay: 4.8s;
-}
-
-.entrance-img-w {
-   -webkit-animation: fade-out 0.8s cubic-bezier(0.39, 0.575, 0.565, 1) both;
-   animation: fade-out 0.8s cubic-bezier(0.39, 0.575, 0.565, 1) both;
-   animation-delay: 4.8s;
-}
-
-.entrance-img-x {
-   -webkit-animation: fade-out 0.8s cubic-bezier(0.39, 0.575, 0.565, 1) both;
-   animation: fade-out 0.8s cubic-bezier(0.39, 0.575, 0.565, 1) both;
-   animation-delay: 4.8s;
-} */
-
-/* the class comes from banner to use the animation */
-
-/* .lines {
-   -webkit-animation: fade-in 0.2s cubic-bezier(0.39, 0.575, 0.565, 1) both;
-   animation: fade-in 0.2s cubic-bezier(0.39, 0.575, 0.565, 1) both;
-   animation-delay: 4.4s;
-} */
