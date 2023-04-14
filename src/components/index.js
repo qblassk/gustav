@@ -1,2 +1,4 @@
-export * from './Banner';
+export * from './EntranceBase';
 export * from './Entrance';
+export * from './NavBar';
+export * from './Banner';
