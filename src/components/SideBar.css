@@ -1,0 +1,40 @@
+.sidebar-container {
+   position: absolute;
+   top: -0.5vw;
+   left: 0vw;
+   z-index: 2;
+}
+
+.sidebar-text {
+   position: absolute;
+   top: 0vw;
+   left: 0vw;
+   padding: 2vw 0.8vw 0vw 0.8vw;
+   height: 53.35vw;
+   width: 15.7vw;
+   font-family: 'Courier New', Courier, monospace;
+   font-size: 18px;
+   text-align: center;
+   color: white;
+   background-color: rgba(0, 0, 0, 0.4);
+   z-index: 3;
+}
+
+scroll-container {
+   display: block;
+   margin: 0 auto;
+   width: 100%;
+   height: 106vh;
+   overflow-y: scroll;
+   scroll-behavior: smooth;
+}
+scroll-page {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   margin-bottom: 1vw;
+}
+
+scroll-container::-webkit-scrollbar {
+   display: none;
+}

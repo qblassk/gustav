@@ -1,97 +1,139 @@
-@-webkit-keyframes vibrate-navbar-button {
+@-webkit-keyframes vibrate-1 {
    0% {
-      -webkit-transform: translate(0) rotate(-72deg);
-      transform: translate(0) rotate(-72deg);
+      -webkit-transform: translate(0);
+      transform: translate(0);
    }
    20% {
-      -webkit-transform: translate(-0.08vw, 0.08vw) rotate(-72deg);
-      transform: translate(-0.08vw, 0.08vw) rotate(-72deg);
+      -webkit-transform: translate(-1vw, 1vw);
+      transform: translate(-1vw, 1vw);
    }
    40% {
-      -webkit-transform: translate(-0.08vw, -0.08vw) rotate(-72deg);
-      transform: translate(-0.08vw, -0.08vw) rotate(-72deg);
+      -webkit-transform: translate(-1vw, -1vw);
+      transform: translate(-1vw, -1vw);
    }
    60% {
-      -webkit-transform: translate(0.08vw, 0.08vw) rotate(-72deg);
-      transform: translate(0.08vw, 0.08vw);
+      -webkit-transform: translate(1vw, 1vw);
+      transform: translate(1vw, 1vw);
    }
    80% {
-      -webkit-transform: translate(0.08vw, -0.08vw) rotate(-72deg);
-      transform: translate(0.08vw, -0.08vw) rotate(-72deg);
+      -webkit-transform: translate(1vw, -1vw);
+      transform: translate(1vw, -1vw);
    }
    100% {
-      -webkit-transform: translate(0) rotate(-72deg);
-      transform: translate(0) rotate(-72deg);
+      -webkit-transform: translate(0);
+      transform: translate(0);
    }
 }
-@keyframes vibrate-navbar-button {
+@keyframes vibrate-1 {
    0% {
-      -webkit-transform: translate(0) rotate(-72deg);
-      transform: translate(0) rotate(-72deg);
+      -webkit-transform: translate(0);
+      transform: translate(0);
    }
    20% {
-      -webkit-transform: translate(-0.08vw, 0.08vw) rotate(-72deg);
-      transform: translate(-0.08vw, 0.08vw) rotate(-72deg);
+      -webkit-transform: translate(-1vw, 1vw);
+      transform: translate(-1vw, 1vw);
    }
    40% {
-      -webkit-transform: translate(-0.08vw, -0.08vw) rotate(-72deg);
-      transform: translate(-0.08vw, -0.08vw) rotate(-72deg);
+      -webkit-transform: translate(-1vw, -1vw);
+      transform: translate(-1vw, -1vw);
    }
    60% {
-      -webkit-transform: translate(0.08vw, 0.08vw) rotate(-72deg);
-      transform: translate(0.08vw, 0.08vw) rotate(-72deg);
+      -webkit-transform: translate(1vw, 1vw);
+      transform: translate(1vw, 1vw);
    }
    80% {
-      -webkit-transform: translate(0.08vw, -0.08vw) rotate(-72deg);
-      transform: translate(0.08vw, -0.08vw) rotate(-72deg);
+      -webkit-transform: translate(1vw, -1vw);
+      transform: translate(1vw, -1vw);
    }
    100% {
-      -webkit-transform: translate(0) rotate(-72deg);
-      transform: translate(0) rotate(-72deg);
+      -webkit-transform: translate(0);
+      transform: translate(0);
    }
 }
 
-.navbar-container {
-   position: absolute;
-   left: 53.3vw;
-   font-family: 'Gloria Hallelujah', cursive;
-   font-size: 1.2vw;
-   font-weight: 100;
-   color: white;
-   z-index: 3;
+@-webkit-keyframes fade-in-svg {
+   0% {
+      opacity: 0;
+   }
+   100% {
+      opacity: 1;
+   }
 }
 
-.navbar-button-about {
-   transform: rotate(-72deg);
-   -webkit-transform: rotate(-72deg);
+@keyframes fade-in-svg {
+   0% {
+      opacity: 0;
+   }
+   100% {
+      opacity: 1;
+   }
+}
+
+.navbar-fnt {
+   font-weight: normal;
+   font-size: 146.17px;
+   font-family: 'Gloria Hallelujah';
+   cursor: pointer;
+   fill: #fefefe;
+}
+
+.lines-off {
+   visibility: hidden;
+}
+
+.lines-on {
    position: absolute;
+   top: -0.5vw;
    left: 0vw;
-   top: 1.4vw;
-   margin: 0;
-   cursor: pointer;
+   width: 100%;
+   z-index: 2;
+   -webkit-animation: fade-in-svg 0.8s cubic-bezier(0.39, 0.575, 0.565, 1) both;
+   animation: fade-in-svg 0.8s cubic-bezier(0.39, 0.575, 0.565, 1) both;
 }
 
-.navbar-button-contact {
-   transform: rotate(-72deg);
-   -webkit-transform: rotate(-72deg);
-   position: absolute;
-   left: 3.8vw;
-   top: 2vw;
-   margin: 0;
+.fil {
    cursor: pointer;
+   fill-opacity: 0.7;
 }
 
-.navbar-button-news {
-   transform: rotate(-72deg);
-   -webkit-transform: rotate(-72deg);
-   position: absolute;
-   left: 9.8vw;
-   top: 1vw;
-   margin: 0;
-   cursor: pointer;
+.fil1 {
+   fill: #9feded;
 }
 
-.navbar-move-button {
-   -webkit-animation: vibrate-navbar-button 0.9s linear infinite both;
-   animation: vibrate-navbar-button 0.9s linear infinite both;
+.fil2 {
+   fill: #e4f994;
+}
+
+.fil3 {
+   fill: #f8b1ad;
+}
+
+.fil4 {
+   fill: #71abdd;
+}
+
+.fil5 {
+   fill: #fdcd79;
+}
+
+.fil6 {
+   fill: #fff68d;
+}
+
+.fil7 {
+   fill: #dd86b9;
+}
+
+.fil8 {
+   fill: #a7a4ff;
+}
+
+.fil9 {
+   opacity: 0;
+}
+
+.move {
+   cursor: pointer;
+   -webkit-animation: vibrate-1 0.9s linear infinite both;
+   animation: vibrate-1 0.9s linear infinite both;
 }

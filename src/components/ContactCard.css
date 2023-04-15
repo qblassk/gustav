@@ -1,0 +1,35 @@
+.contact-card-container {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   position: fixed;
+   bottom: 4.5vw;
+   right: 5.5vw;
+   height: 20vw;
+   width: 20vw;
+   background: rgba(254, 254, 254, 0.4);
+   border-radius: 50%;
+   outline: 0.3vw solid rgb(60, 60, 60);
+   outline-offset: -0.8vw;
+   font-family: 'Josefin Sans', sans-serif;
+   z-index: 3;
+}
+
+.contact-card-container-off {
+   display: none;
+}
+
+h2 {
+   font-size: 2vw;
+   color: rgb(50, 50, 50);
+   margin-top: 1vw;
+   margin-bottom: 1vw;
+}
+
+h3 {
+   font-size: 1.2vw;
+   font-weight: 400;
+   margin: 0.5vw;
+   color: rgb(50, 50, 50);
+}

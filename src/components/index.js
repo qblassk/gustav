@@ -1,4 +1,5 @@
-export * from './EntranceBase';
-export * from './Entrance';
 export * from './NavBar';
+export * from './SideBar';
 export * from './Banner';
+export * from './Entrance';
+export * from './ContactCard';

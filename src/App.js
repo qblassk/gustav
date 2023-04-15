@@ -1,13 +1,14 @@
 import './App.css';
-import { Banner, Entrance, EntranceBase, NavBar } from './components';
+import { Banner, Entrance, NavBar, SideBar, ContactCard } from './components';
 
 function App() {
    return (
       <div className="App">
          <NavBar />
+         <SideBar />
          <Banner />
-         <EntranceBase />
          <Entrance />
+         <ContactCard />
       </div>
    );
 }
