@@ -2,13 +2,25 @@ import '../components/NavBar.css';
 import { useState, useEffect } from 'react';
 
 export function NavBar() {
-   const [contactCard, setContactCard] = useState('contact-card-container-off');
-   const contactCardContainer = document.getElementById('contact-card');
-   /* hacer un toggle class del container */
-   /* contactCardContainer class = contactCard */
+   const contactCardContainer = document.getElementById('contact-card-container');
    const handleClickContact = () => {
-      setContactCard('contact-card-container');
-      return;
+      contactCardContainer.classList.toggle('contact-card-container-on');
+      contactCardContainer.classList.toggle('contact-card-container-off');
+   };
+
+   const handleClickContactOff = () => {
+      contactCardContainer.classList.remove('contact-card-container-on');
+      contactCardContainer.classList.add('contact-card-container-off');
+   };
+
+   const textOn = () => {
+      const sidebarScrollContainer = document.getElementById('sidebar-scroll-container');
+      sidebarScrollContainer.style.color = 'white';
+   };
+
+   const textOff = () => {
+      const sidebarScrollContainer = document.getElementById('sidebar-scroll-container');
+      sidebarScrollContainer.style.color = 'black';
    };
 
    const position = function (obj) {
@@ -20,6 +32,7 @@ export function NavBar() {
       const about = document.getElementById('about');
       if (about) {
          sidebarScrollContainer.scrollTo(0, position(about));
+         sidebarScrollContainer.style.color = 'white';
       }
    };
    const handleClickScrollExperience = () => {
@@ -27,6 +40,7 @@ export function NavBar() {
       const experience = document.getElementById('experience');
       if (experience) {
          sidebarScrollContainer.scrollTo(0, position(experience));
+         sidebarScrollContainer.style.color = 'white';
       }
    };
    const handleClickScrollSkills = () => {
@@ -34,6 +48,7 @@ export function NavBar() {
       const skills = document.getElementById('skills');
       if (skills) {
          sidebarScrollContainer.scrollTo(0, position(skills));
+         sidebarScrollContainer.style.color = 'white';
       }
    };
    const handleClickScrollEducation = () => {
@@ -41,6 +56,7 @@ export function NavBar() {
       const education = document.getElementById('education');
       if (education) {
          sidebarScrollContainer.scrollTo(0, position(education));
+         sidebarScrollContainer.style.color = 'white';
       }
    };
    const [lines, setLines] = useState('lines-off');
@@ -163,43 +179,53 @@ export function NavBar() {
          <svg viewBox="0 0 10837 6096" className={lines}>
             <g>
                <polygon
+                  class="fil9"
+                  points="10837,6096 0,6096 0,0 10837,0"
+                  onClick={() => {
+                     handleClickContactOff();
+                     textOff();
+                  }}
+               />
+               <polygon
                   class={`fil fil1 ${hovered1 && 'move'}`}
                   onMouseOver={HoverTrue1}
                   onMouseLeave={HoverFalse1}
-                  onClick={handleClickScrollAbout}
+                  onClick={handleClickScrollExperience}
                   points="0,4828 0,5723 5382,2886 6321,0 6062,0 5166,2812 "
                />
                <polygon
                   class={`fil fil2 ${hovered2 && 'move'}`}
                   onMouseOver={HoverTrue2}
                   onMouseLeave={HoverFalse2}
-                  onClick={handleClickScrollExperience}
+                  onClick={handleClickScrollSkills}
                   points="5599,2960 6581,0 6321,0 5382,2886 0,5723 0,6096 1238,6096 "
                />
                <polygon
                   class={`fil fil3 ${hovered3 && 'move'}`}
                   onMouseOver={HoverTrue3}
                   onMouseLeave={HoverFalse3}
-                  onClick={handleClickScrollSkills}
+                  onClick={handleClickScrollEducation}
                   points="5816,3034 6841,0 6581,0 5599,2960 1238,6096 2778,6096 "
                />
                <polygon
                   class={`fil fil4 ${hovered4 && 'move'}`}
                   onMouseOver={HoverTrue4}
                   onMouseLeave={HoverFalse4}
-                  onClick={handleClickScrollEducation}
+                  onClick={handleClickContact}
                   points="6032,3109 7100,0 6841,0 5816,3034 2778,6096 4029,6096 "
                />
                <polygon
                   class={`fil fil5 ${hovered5 && 'move'}`}
                   onMouseOver={HoverTrue5}
                   onMouseLeave={HoverFalse5}
+                  onClick={textOn}
                   points="6249,3183 7360,0 7100,0 6032,3109 4029,6096 5079,6096 "
                />
                <polygon
                   class={`fil fil6 ${hovered6 && 'move'}`}
                   onMouseOver={HoverTrue6}
                   onMouseLeave={HoverFalse6}
+                  onClick={textOff}
                   points="6465,3257 7620,0 7360,0 6249,3183 5079,6096 5947,6096 "
                />
                <polygon
@@ -212,65 +238,65 @@ export function NavBar() {
                   class={`fil fil8 ${hovered8 && 'move'}`}
                   onMouseOver={HoverTrue8}
                   onMouseLeave={HoverFalse8}
-                  onClick={handleClickContact}
+                  onClick={handleClickScrollAbout}
                   points="4949,2737 5802,0 6062,0 5166,2812 0,4828 0,4163 "
                />
-               <polygon class="fil9" points="10837,127 0,127 0,0 10837,0 " />
-               <g transform="matrix(0.326712 -0.945124 0.945124 0.326712 1071.47 4889.77)">
-                  <text
-                     x="5419"
-                     y="3048"
-                     class={`navbar-fnt ${hovered8 && 'move'}`}
-                     onMouseOver={HoverTrue8}
-                     onMouseLeave={HoverFalse8}
-                     onClick={handleClickContact}
-                  >
-                     contact
-                  </text>
-               </g>
-               <g transform="matrix(0.326712 -0.945124 0.945124 0.326712 1303.1 4987.19)">
-                  <text
-                     x="5419"
-                     y="3048"
-                     class={`navbar-fnt ${hovered1 && 'move'}`}
-                     onMouseOver={HoverTrue1}
-                     onMouseLeave={HoverFalse1}
-                     onClick={handleClickScrollAbout}
-                  >
-                     about me
-                  </text>
-               </g>
-               <g transform="matrix(0.326712 -0.945124 0.945124 0.326712 1541.19 5012.16)">
-                  <text
-                     x="5419"
-                     y="3048"
-                     class={`navbar-fnt ${hovered2 && 'move'}`}
-                     onMouseOver={HoverTrue2}
-                     onMouseLeave={HoverFalse2}
-                     onClick={handleClickScrollExperience}
-                  >
-                     experience
-                  </text>
-               </g>
-               <g transform="matrix(0.326712 -0.945124 0.945124 0.326712 1934.74 4653.74)">
-                  <text
-                     x="5419"
-                     y="3048"
-                     class={`navbar-fnt ${hovered3 && 'move'}`}
-                     onMouseOver={HoverTrue3}
-                     onMouseLeave={HoverFalse3}
-                     onClick={handleClickScrollSkills}
-                  >
-                     skills
-                  </text>
-               </g>
-               <g transform="matrix(0.326712 -0.945124 0.945124 0.326712 2069.14 4984.85)">
+
+               <g transform="matrix(0.326712 -0.945124 0.945124 0.326712 2114.81 4889.77)">
                   <text
                      x="5419"
                      y="3048"
                      class={`navbar-fnt ${hovered4 && 'move'}`}
                      onMouseOver={HoverTrue4}
                      onMouseLeave={HoverFalse4}
+                     onClick={handleClickContact}
+                  >
+                     contact
+                  </text>
+               </g>
+               <g transform="matrix(0.326712 -0.945124 0.945124 0.326712 1053.48 4987.19)">
+                  <text
+                     x="5419"
+                     y="3048"
+                     class={`navbar-fnt ${hovered8 && 'move'}`}
+                     onMouseOver={HoverTrue8}
+                     onMouseLeave={HoverFalse8}
+                     onClick={handleClickScrollAbout}
+                  >
+                     about me
+                  </text>
+               </g>
+               <g transform="matrix(0.326712 -0.945124 0.945124 0.326712 1291.56 5012.16)">
+                  <text
+                     x="5419"
+                     y="3048"
+                     class={`navbar-fnt ${hovered1 && 'move'}`}
+                     onMouseOver={HoverTrue1}
+                     onMouseLeave={HoverFalse1}
+                     onClick={handleClickScrollExperience}
+                  >
+                     experience
+                  </text>
+               </g>
+               <g transform="matrix(0.326712 -0.945124 0.945124 0.326712 1672.83 4653.74)">
+                  <text
+                     x="5419"
+                     y="3048"
+                     class={`navbar-fnt ${hovered2 && 'move'}`}
+                     onMouseOver={HoverTrue2}
+                     onMouseLeave={HoverFalse2}
+                     onClick={handleClickScrollSkills}
+                  >
+                     skills
+                  </text>
+               </g>
+               <g transform="matrix(0.326712 -0.945124 0.945124 0.326712 1813.52 4984.85)">
+                  <text
+                     x="5419"
+                     y="3048"
+                     class={`navbar-fnt ${hovered3 && 'move'}`}
+                     onMouseOver={HoverTrue3}
+                     onMouseLeave={HoverFalse3}
                      onClick={handleClickScrollEducation}
                   >
                      education
@@ -283,6 +309,7 @@ export function NavBar() {
                      class={`navbar-fnt ${hovered5 && 'move'}`}
                      onMouseOver={HoverTrue5}
                      onMouseLeave={HoverFalse5}
+                     onClick={textOn}
                   >
                      info on
                   </text>
@@ -294,6 +321,7 @@ export function NavBar() {
                      class={`navbar-fnt ${hovered6 && 'move'}`}
                      onMouseOver={HoverTrue6}
                      onMouseLeave={HoverFalse6}
+                     onClick={textOff}
                   >
                      info off
                   </text>

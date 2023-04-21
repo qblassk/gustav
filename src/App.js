@@ -1,5 +1,5 @@
 import './App.css';
-import { Banner, Entrance, NavBar, SideBar, ContactCard } from './components';
+import { Banner, Entrance, NavBar, SideBar, ContactCard, Personage } from './components';
 
 function App() {
    return (
@@ -9,6 +9,7 @@ function App() {
          <Banner />
          <Entrance />
          <ContactCard />
+         <Personage />
       </div>
    );
 }
