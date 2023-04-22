@@ -21,18 +21,41 @@ export function SideBar() {
                         <i>FREELANCE (2020-Now)</i>
                      </b>
                   </p>
-                  <p>/ Development of e-commerce websites, backend an frontend</p>
-                  <p>/ Programming and game design "The Invasion"</p>
+                  <p>DESARROLLADOR FULL STACk</p>
+                  <p>/ Development of e-commerce web pages</p>
+                  <p>/ Development of Web Portfolios</p>
                   <p>
-                     / Analysis, data loading and creation of an Artificial Neural Network; in order to predict prices
-                     in a housing development. Real estate client
+                     / Participation in the development of websites, following common practices of security and
+                     development design patterns, being able to successfully carry out complex group tasks
+                  </p>
+                  <p>
+                     / Code refactoring, improving functionality and readability. facilitating thus its maintenance and
+                     group work
+                  </p>
+                  <p>
+                     / Advances in front-end development with vectors, improving the customization of designs and
+                     considerably reducing the loading times that require the use of multiple static files
+                  </p>
+                  <p>
+                     / Graphic design using a large amount of resources for the definition of the palettes and the
+                     graphical interface, work with style libraries and CSS animations
+                  </p>
+                  <p>APPLICATIONS</p>
+                  <p>/ Programming and game design "The Invasion"</p>
+                  <p>/ Graphic interface design and user experience </p>
+                  <p>/ Digitization of the graphic resources necessary for its implementation</p>
+                  <p>/ Publishing on Play Store and incorporating ads using AdMob</p>
+                  <p>DEEP LEARNING</p>
+                  <p>
+                     / Analysis, data loading and creation of an Artificial Neural Network used for the price prediction
+                     in a real estate development
                   </p>
                   <p>
                      <b>
                         <i>GARBe STUDIO (2017-2022)</i>
                      </b>
                   </p>
-                  <p>/ Programming </p>
+                  <p>/ Web development and 3D programming </p>
                   <p>/ Design and 3D Modeling</p>
                   <p>
                      <b>

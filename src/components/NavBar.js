@@ -334,7 +334,14 @@ export function NavBar() {
                      onMouseOver={HoverTrue7}
                      onMouseLeave={HoverFalse7}
                   >
-                     abstract
+                     <a
+                        href="https://mega.nz/file/ZTZD1ThC#ZECA4Gva1_FB9iexwyqkVlcU88GDicJxawWx_QLmCgA"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="navbar-fnt"
+                     >
+                        abstract
+                     </a>
                   </text>
                </g>
             </g>
