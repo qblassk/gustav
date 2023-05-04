@@ -335,7 +335,7 @@ export function NavBar() {
                      onMouseLeave={HoverFalse7}
                   >
                      <a
-                        href="https://mega.nz/file/ZTZD1ThC#ZECA4Gva1_FB9iexwyqkVlcU88GDicJxawWx_QLmCgA"
+                        href="https://mega.nz/file/8ehFybiB#ZSZJaUU6awQJcRzGqAyGlLj49RqgylEpQcTdlKYaoW8"
                         target="_blank"
                         rel="noopener noreferrer"
                         className="navbar-fnt"

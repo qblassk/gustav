@@ -268,3 +268,30 @@
    -webkit-animation: flicker-in-1 2s linear both;
    animation: flicker-in-1 2s linear both;
 }
+
+@media (max-width: 700px) {
+   .personage-hidden-welcome {
+      display: none;
+   }
+   .personage-visible-welcome {
+      display: none;
+   }
+   .personage-hidden-a {
+      display: none;
+   }
+   .personage-hidden-b {
+      display: none;
+   }
+   .personage-hidden-c {
+      display: none;
+   }
+   .personage-translate-a {
+      display: none;
+   }
+   .personage-translate-b {
+      display: none;
+   }
+   .personage-translate-c {
+      display: none;
+   }
+}

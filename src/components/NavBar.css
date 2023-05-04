@@ -75,6 +75,7 @@
    font-family: 'Gloria Hallelujah';
    cursor: pointer;
    fill: #fefefe;
+   text-decoration: none;
 }
 
 .lines-off {
@@ -136,4 +137,10 @@
    cursor: pointer;
    -webkit-animation: vibrate-1 0.9s linear infinite both;
    animation: vibrate-1 0.9s linear infinite both;
+}
+
+@media (max-width: 700px) {
+   .lines-on {
+      display: none;
+   }
 }

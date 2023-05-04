@@ -21,7 +21,7 @@ export function SideBar() {
                         <i>FREELANCE (2020-Now)</i>
                      </b>
                   </p>
-                  <p>DESARROLLADOR FULL STACk</p>
+                  <p>FRONT END / FULL STACK DEVELOPER</p>
                   <p>/ Development of e-commerce web pages</p>
                   <p>/ Development of Web Portfolios</p>
                   <p>
@@ -45,17 +45,17 @@ export function SideBar() {
                   <p>/ Graphic interface design and user experience </p>
                   <p>/ Digitization of the graphic resources necessary for its implementation</p>
                   <p>/ Publishing on Play Store and incorporating ads using AdMob</p>
-                  <p>DEEP LEARNING</p>
-                  <p>
-                     / Analysis, data loading and creation of an Artificial Neural Network used for the price prediction
-                     in a real estate development
-                  </p>
+
                   <p>
                      <b>
                         <i>GARBe STUDIO (2017-2022)</i>
                      </b>
                   </p>
                   <p>/ Web development and 3D programming </p>
+                  <p>
+                     / Analysis, data loading and creation of an Artificial Neural Network used for the price prediction
+                     in a real estate development
+                  </p>
                   <p>/ Design and 3D Modeling</p>
                   <p>
                      <b>
@@ -77,23 +77,31 @@ export function SideBar() {
                         <i>FULL STACK WEB DEVELOPER</i>
                      </b>
                   </p>
-                  <p>Digital House - 2022/2023</p>
+                  <p>Digital House - 2022</p>
                   <p>
                      <b>
                         <i> ARCHITECT</i>
                      </b>
                   </p>
-                  <p>
-                     Facultad de Arquitectura, Urbanismo y Diseño Industrial - Univesidad Nacional de Córdoba -
-                     2007/2016
-                  </p>
+                  <p>FAUDI - Universidad Nacional de Córdoba - 2007-2016</p>
                   <p>
                      <b>
-                        <i>BACHELOR ORIENTED IN ECONOMICS AND MANAGEMENT OF ORGANIZATIONS </i>
+                        <i>PROGRAMACIÓN WEB FRONT-END (REACT)</i>
                      </b>
                   </p>
-                  <p>Anglo Americano School / 1998-2004</p>
-
+                  <p>FaMaF - UNC - In progress</p>
+                  <p>
+                     <b>
+                        <i>ChatGPT PROMPT ENGINEERING FOR DEVELOPERS</i>
+                     </b>
+                  </p>
+                  <p>DeepLearning.AI & OpenAI - 2023</p>
+                  <p>
+                     <b>
+                        <i>CURSO INTENSIVO DE APRENDIZAJE AUTOMÁTICO</i>
+                     </b>
+                  </p>
+                  <p>Google - 2021</p>
                   <p className="sidebar-filled-text">
                      More than 10 years of professional growth in the world of design and computing, I developed a great
                      technical, self-management, clients, and teamwork experience. I 've been programming for more than

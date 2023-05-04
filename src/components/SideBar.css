@@ -3,7 +3,7 @@
    top: 0vw;
    left: 0vw;
    padding: 2vw 0.8vw 0vw 0.8vw;
-   height: 53.45vw;
+   height: 55.45vw;
    width: 15.7vw;
    font-family: 'Courier New', Courier, monospace;
    font-size: 1.3vw;
@@ -19,7 +19,7 @@ scroll-container {
    display: block;
    margin: 0 auto;
    width: 100%;
-   height: 53.35vw;
+   height: 51vw;
    color: black;
    overflow-y: scroll;
    scroll-behavior: smooth;
@@ -50,4 +50,61 @@ h4 {
 
 .sidebar-filled-text {
    visibility: hidden;
+}
+
+@media (max-width: 700px) {
+   .sidebar-text {
+      position: absolute;
+      top: 165.1vw;
+      left: 0vw;
+      padding: 2vw 0.8vw 0vw 0.8vw;
+      height: 80%;
+      width: 100%;
+      font-family: 'Courier New', Courier, monospace;
+      font-size: 1.3vw;
+      text-align: center;
+      background-color: rgba(0, 0, 0, 0.4);
+      z-index: 3;
+      -webkit-animation: flicker-in-1 2s linear both;
+      animation: flicker-in-1 2s linear both;
+      animation-delay: 9s;
+   }
+
+   scroll-container {
+      display: block;
+      margin: 0 auto;
+      width: 100%;
+      height: 100%;
+      color: black;
+      overflow-y: scroll;
+      scroll-behavior: smooth;
+   }
+
+   scroll-page {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      margin-bottom: 1vw;
+   }
+
+   scroll-container::-webkit-scrollbar {
+      display: none;
+   }
+
+   p {
+      margin: 0;
+      margin-bottom: 0.8vw;
+      font-size: 3vw;
+   }
+
+   h4 {
+      margin: 0;
+      margin-bottom: 0.8vw;
+      font-size: 1.5vw;
+   }
+
+   .sidebar-filled-text {
+      visibility: hidden;
+   }
 }
